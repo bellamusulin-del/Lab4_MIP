@@ -36,7 +36,6 @@
             this.text_box = new System.Windows.Forms.ToolStripTextBox();
             this.forward_btn = new System.Windows.Forms.ToolStripButton();
             this.back_btn = new System.Windows.Forms.ToolStripButton();
-            this.keyword_text = new System.Windows.Forms.ToolStripTextBox();
             this.add_keyword_btn = new System.Windows.Forms.ToolStripButton();
             this.keywords_combo = new System.Windows.Forms.ToolStripComboBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -71,7 +70,6 @@
             this.text_box,
             this.forward_btn,
             this.back_btn,
-            this.keyword_text,
             this.add_keyword_btn,
             this.keywords_combo});
             this.toolStrip1.Location = new System.Drawing.Point(0, 28);
@@ -128,13 +126,6 @@
             this.back_btn.Size = new System.Drawing.Size(29, 25);
             this.back_btn.Text = "Back";
             this.back_btn.Click += new System.EventHandler(this.back_btn_Click);
-            // 
-            // keyword_text
-            // 
-            this.keyword_text.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.keyword_text.Name = "keyword_text";
-            this.keyword_text.Size = new System.Drawing.Size(160, 28);
-            this.keyword_text.Text = "Click btn, add keyword";
             // 
             // add_keyword_btn
             // 
@@ -243,7 +234,6 @@
         private System.Windows.Forms.ToolStripButton forward_btn;
         private System.Windows.Forms.ToolStripButton home_btn;
         private System.Windows.Forms.ToolStripTextBox text_box;
-        private System.Windows.Forms.ToolStripTextBox keyword_text;
         private System.Windows.Forms.ToolStripButton add_keyword_btn;
         private System.Windows.Forms.ToolStripComboBox keywords_combo;
         private System.Windows.Forms.MenuStrip menuStrip1;
